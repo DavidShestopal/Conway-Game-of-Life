@@ -5,12 +5,12 @@ class Menu extends Component {
   render() {
     return (
       <div className="menu">
-        <button onClick={this.props.generateRandom}>random</button>
-        <button onClick={this.props.playGame}>start</button>
-        <button onClick={this.props.increaseSpeed}>+</button>
-        <button onClick={this.props.decreaseSpeed}>-</button>
-        <button onClick={this.props.stopGame}>stop</button>
-        <button onClick={this.props.clearGrid}>clear</button>
+        <button onClick={this.props.generateRandom}>Random</button>
+        <button onClick={this.props.playGame}>Start</button>
+        <button onClick={this.props.increaseSpeed}>Increase Speed</button>
+        <button onClick={this.props.decreaseSpeed}>Decrease Speed</button>
+        <button onClick={this.props.stopGame}>Stop</button>
+        <button onClick={this.props.clearGrid}>Clear</button>
       </div>
     );
   }

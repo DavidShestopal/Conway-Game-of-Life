@@ -1,16 +1,24 @@
 button {
   margin-top: 10px;
-  background-color: black;
+  border-color: #ff33cc;
   color: white;
-  border: 1px solid rgba(241, 0, 0, 0);
+  background-color: #ff33cc;
   font-size: 1.2rem;
   transition: all 0.3s;
   margin-right: 2px;
   margin-left: 2px;
+  border-radius: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 20px hotpink;
+  font-weight: bold;
 }
 
 button:hover {
-  background-color: rgb(226, 43, 98);
+  background-color: #ff1493;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 9px;
+  color: white;
 }

@@ -13,9 +13,9 @@
 }
 
 .on {
-  background-color: rgb(98, 43, 226);
+  background-color: #ff1493;
 }
 
 .box:hover {
-  background-color: rgb(162, 226, 43);
+  background-color: hotpink;
 }

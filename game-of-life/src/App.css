@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 .App {
   text-align: center;
 }
@@ -23,4 +24,34 @@ h5 {
 h5 {
   margin-top: 30px;
   margin-bottom: 0;
+}
+
+.nav {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.title {
+  font-size: 3rem;
+  font-family: 'Arvo', serif;
+  color: white;
+  text-decoration: underline;
+}
+.gen {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Arvo', serif;
+  font-size: 1.2rem;
+  max-width: 714px;
+  border: 1px solid white;
+  max-width: 300px;
+  color: white;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.rules {
+  font-family: 'Arvo', serif;
+  margin-top: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 20px;
 }

@@ -12,8 +12,8 @@ function arrayClone(arr) {
 class App extends Component {
   constructor() {
     super();
-    this.rows = 20;
-    this.cols = 40;
+    this.rows = 25;
+    this.cols = 45;
 
     this.state = {
       generation: 0,
@@ -123,9 +123,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>GAME OF LIFE</h1>
-        <h4>Generation: {this.state.generation} </h4>
-        <Grid rows={this.rows} cols={this.cols} gridFull={this.state.gridFull} selectBox={this.selectBox} />
+        <nav className="nav">
+          <h1 className="title">GAME OF LIFE</h1>
+        </nav>
+        <div>
+          {' '}
+          <Grid rows={this.rows} cols={this.cols} gridFull={this.state.gridFull} selectBox={this.selectBox} />
+        </div>
+        <h4 className="gen"> Current Generation: {this.state.generation} </h4>{' '}
         <Menu
           generateRandom={this.generateRandom}
           clearGrid={this.clearGrid}
@@ -134,8 +139,10 @@ class App extends Component {
           increaseSpeed={this.increaseSpeed}
           decreaseSpeed={this.decreaseSpeed}
         />
-        <h5> If a cell is alive and it has exactly 2 or 3 living neigbors, it stays alive</h5>
-        <h5> If a cell is dead and it has exactly 3 living neigbors, it rises again</h5>
+        <h3 className="rules">Rules:</h3>
+        <h4>- Any live cell with two or three live neighbours survives. - </h4>
+        <h4>- Any dead cell with three live neighbours becomes a live cell. -</h4>
+        <h4>- All other live cells die in the next generation. Similarly, all other dead cells stay dead. -</h4>
       </div>
     );
   }
