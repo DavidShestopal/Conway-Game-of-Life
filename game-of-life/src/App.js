@@ -140,9 +140,11 @@ class App extends Component {
           decreaseSpeed={this.decreaseSpeed}
         />
         <h3 className="rules">Rules:</h3>
-        <h4>- Any live cell with two or three live neighbours survives. - </h4>
-        <h4>- Any dead cell with three live neighbours becomes a live cell. -</h4>
-        <h4>- All other live cells die in the next generation. Similarly, all other dead cells stay dead. -</h4>
+        <div className="list">
+          <h4>- Any live cell with two or three live neighbours survives. - </h4>
+          <h4>- Any dead cell with three live neighbours becomes a live cell. -</h4>
+          <h4>- All other live cells die in the next generation. Similarly, all other dead cells stay dead. -</h4>
+        </div>
       </div>
     );
   }

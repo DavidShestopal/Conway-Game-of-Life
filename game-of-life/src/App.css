@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 .App {
   text-align: center;
+  border: hotpink 5px solid;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  margin-top: 20px;
 }
 
 .center {
@@ -54,4 +59,7 @@ h5 {
   font-weight: bold;
   text-decoration: underline;
   line-height: 20px;
+}
+.list {
+  margin-bottom: 50px;
 }
