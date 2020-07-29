@@ -145,6 +145,7 @@ class App extends Component {
           <h4>- Any dead cell with three live neighbours becomes a live cell. -</h4>
           <h4>- All other live cells die in the next generation. Similarly, all other dead cells stay dead. -</h4>
         </div>
+        <p style={{ color: 'white' }}>Created by David Shestopal</p>
       </div>
     );
   }
